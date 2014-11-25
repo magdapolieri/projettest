@@ -3,7 +3,15 @@ Body {margin :0px;}
 ul {margin :0px;
     padding :0px;}
 
-header a {color:pink;
+header a {color:white;
 text-decoration:none;}
 
-header li {display:inline;}
+header li {display:inline;
+margin-left:20px;
+margin-right:20px;}
+
+header {background-color:pink;
+        padding-top:20px;
+        padding-bottom:20px;}
+
+
