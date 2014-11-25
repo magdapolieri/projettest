@@ -6,3 +6,4 @@ ul {margin :0px;
 header a {color:pink;
 text-decoration:none;}
 
+header li {display:inline;}
