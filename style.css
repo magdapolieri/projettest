@@ -8,8 +8,9 @@ header a {color:pink;
           font-family: 'Josefin Sans', sans-serif;}
 
 header a:hover {color:rgb(182,241,215);
-        padding:15px;
-        border-radius:7px;}
+    background-color: white;
+        padding:10px;
+        border-radius:5px;}
 
 header li {display:inline-block;
            width:32%;
