@@ -7,8 +7,9 @@ header a {color:pink;
           text-decoration:none;
           font-family: 'Josefin Sans', sans-serif;}
 
-header a:hover {color:rgb(182,241,215);
+header a:hover {color:rgba(182,241,167;0.5);
     background-color: white;
+    transition: all 1s linear;
         padding:10px;
         border-radius:5px;}
 
@@ -16,10 +17,22 @@ header li {display:inline-block;
            width:32%;
            text-align:center;}
 
-header {background-color:rgba(182,241,215,0.2);
+header {background-color:rgba(182,241,167,0.2);
         padding-top:20px;
         padding-bottom:20px;}
 
 h1 {font-family: 'Josefin Sans', sans-serif;}
 h3{font-family: 'Quicksand', sans-serif;}
 p{font-family: 'Comfortaa', cursive;}
+
+
+#galerie {background-color: pink;
+          height:250px;
+          width:250px;
+          margin:auto;}
+
+main {max-width:700px;
+      margin:auto;
+      background-color:rgba(182,241,167,0.4);
+      margin-top:100px;
+      padding:50px;}
