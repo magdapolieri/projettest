@@ -1,11 +1,5 @@
 Body {margin :0px;}
 
-main {max-width:700px;
-      margin:auto;
-      background-color:rgba(182,241,167,0.4);
-      margin-top:100px;
-      padding:50px;}
-
 /* MENU */
 header {background-color:rgba(182,241,167,0.2);
         padding-top:10px;
@@ -72,12 +66,17 @@ header {background-color:rgba(182,241,167,0.2);
   background: pink;
   border-radius: 100%;}
 
-/* BODY */
+/* Corps du site */
+main {max-width:800px;
+      margin:auto;
+      background-color:rgba(182,241,167,0.4);
+      margin-top:100px;
+      padding:50px;}
+
 h1 {font-family: 'Josefin Sans', sans-serif;}
 p{font-family: 'Comfortaa', cursive;}
 
-
-#galerie {background-color: pink;
-          height:250px;
-          width:250px;
+.bloc {background-color: pink;
+          height:350px;
+          width:350px;
           margin:auto;}
