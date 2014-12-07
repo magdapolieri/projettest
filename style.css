@@ -1,22 +1,79 @@
 Body {margin :0px;}
 
-ul {margin :0px;
-    padding :0px;}
+main {max-width:700px;
+      margin:auto;
+      background-color:rgba(182,241,167,0.4);
+      margin-top:100px;
+      padding:50px;}
 
-header a {color:#BED1B2;
-          text-decoration:none;
-          font-family: 'Josefin Sans', sans-serif;}
-
-header li {display:inline-block;
-           width:32%;
-           text-align:center;}
-
+/* MENU */
 header {background-color:rgba(182,241,167,0.2);
-        padding-top:20px;
-        padding-bottom:20px;}
+        padding-top:10px;
+        padding-bottom:10px;}
 
+.nav {overflow: hidden;
+  position:relative;
+  width:32%;
+  margin:auto;
+  border-width: 0 0 1px;
+  background:transparent;
+  border-color:pink;
+  border-style: dashed;}
+
+.nav a {display: inline-block;
+    position: relative;
+    float: right;
+    padding-bottom:15px;
+    padding-top:10px;
+    padding-left:0;
+    padding-right:0; 
+    width: 32%;
+    text-decoration:none;
+    font-family:'Unica One', cursive;
+    text-align:center;
+    font-size: 20px;
+    color: #393939;
+    transition:.7s;}
+
+.nav a:hover {color: pink;}
+
+.effect {
+  position: absolute;
+  right: 100%;
+  transition: 0.7s ease-in-out; }
+
+.nav a:nth-child(2):hover ~ .effect {right:46.5%;}
+.nav a:nth-child(1):hover ~ .effect {right:14.5%;}
+.nav a:nth-child(3):hover ~ .effect {right:78.5%;}
+
+.ph-dot-nav:after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height:20px;
+  background:pink;
+  bottom:10px;}
+
+.ph-dot-nav a:after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  bottom: 0px;
+  margin-left: 40px;
+  left: 25%;
+  background: pink;
+  border-radius: 100%; }
+
+.ph-dot-nav .effect {
+  width: 10px;
+  height: 10px;
+  bottom: 0px; 
+  background: pink;
+  border-radius: 100%;}
+
+/* BODY */
 h1 {font-family: 'Josefin Sans', sans-serif;}
-h3{font-family: 'Quicksand', sans-serif;}
 p{font-family: 'Comfortaa', cursive;}
 
 
@@ -24,38 +81,3 @@ p{font-family: 'Comfortaa', cursive;}
           height:250px;
           width:250px;
           margin:auto;}
-
-main {max-width:700px;
-      margin:auto;
-      background-color:rgba(182,241,167,0.4);
-      margin-top:100px;
-      padding:50px;}
-
-
-#cercle{
-    background:url(image/3.jpg);
-    background-size:cover;
-    position:relative;
-    display:inline-block;
-   width:100px;
-   height:100px;
-   border:solid 2px pink;
-   border-radius:85px;
-   line-height:100px;
-   text-align:center
-       
-    animation-name:cercle; -webkit-animation-name:cercle;
-   -moz-animation-name:cercle; -o-animation-name:cercle;
-   animation-duration:3s; -webkit-animation-duration:3s;
-   -moz-animation-duration:3s; -o-animation-duration:3s;
-   animation-iteration-count :infinite; -webkit-animation-iteration-count:infinite;
-   -moz-animation-iteration-count:infinite; -o-animation-iteration-count:infinite;
-   animation-direction:alternate; -webkit-animation-direction:alternate;
-   -moz-animation-direction:alternate; -o-animation-direction:alternate;
-   animation-timing-function:linear; -webkit-animation-timing-function:linear;
-   -moz-animation-timing-function:linear; -o-animation-timing-function:linear;}
-
-@keyframes cercle{from {transform:rotate(0deg); left:0px;} to {transform:rotate(360deg); left:100px;}}
-@-webkit-keyframes cercle{from {-webkit-transform:rotate(0deg); left:0px;} to {-webkit-transform:rotate(360deg); left:100px;}}
-@-moz-keyframes cercle{from {-moz-transform:rotate(0deg); left:0px;} to {-moz-transform:rotate(360deg); left:100px;}}
-@-o-keyframes cercle{from {-o-transform:rotate(0deg); left:0px;} to {-o-transform:rotate(360deg); left:100px;}} 
