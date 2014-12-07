@@ -66,18 +66,28 @@ header {background-color:rgba(182,241,167,0.2);
   background: pink;
   border-radius: 100%;}
 
-/* Corps du site */
-main {max-width:800px;
-      margin:auto;
-      background-color:rgba(182,241,167,0.4);
-      background-image: image(background.png)
-      margin-top:100px;
-      padding:50px;}
 
-h1 {font-family: 'Josefin Sans', sans-serif;}
+/* Corps du site */    
+main {margin:auto;
+      max-width:800px;
+      background-color:rgba(182,241,167,0.2);
+      margin-top:80px;
+      padding:10px;}
+    
+h1 {font-family:'Pacifico', cursive;
+text-align: center;}
+
+h2 {font-family: 'Amatic SC', cursive;
+text-align: center;}
+
 p{font-family: 'Comfortaa', cursive;}
 
-.bloc {background-color: pink;
-          height:350px;
-          width:350px;
-          margin:auto;}
+.bloc {background-color:rgba(255,218,218,0.7);
+       height:700px;
+       width:700px;
+       margin:auto;
+       padding-bottom:20px;
+       padding-left:20px;
+       padding-right:20px;
+       padding-top:20px;
+       border:1px dotted black;}
