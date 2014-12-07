@@ -3,7 +3,7 @@ Body {margin :0px;}
 ul {margin :0px;
     padding :0px;}
 
-header a {color:pink;
+header a {color:#BED1B2;
           text-decoration:none;
           font-family: 'Josefin Sans', sans-serif;}
 
@@ -32,13 +32,15 @@ main {max-width:700px;
       padding:50px;}
 
 
-#cercle{position:relative;
+#cercle{
+    background:url(image/3.jpg);
+    background-size:cover;
+    position:relative;
     display:inline-block;
    width:100px;
    height:100px;
-   border:solid 2px #909E87;
+   border:solid 2px pink;
    border-radius:85px;
-   background-color:#BED1B2;
    line-height:100px;
    text-align:center
        
