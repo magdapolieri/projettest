@@ -39,9 +39,9 @@ header {background-color:rgba(182,241,167,0.2);
   right: 100%;
   transition: 0.7s ease-in-out; }
 
-.nav a:nth-child(2):hover ~ .effect {right:47.6%;}
-.nav a:nth-child(1):hover ~ .effect {right:15.6%;}
-.nav a:nth-child(3):hover ~ .effect {right:79.6%;}
+.nav a:nth-child(2):hover ~ .effect {right:47.5%;}
+.nav a:nth-child(1):hover ~ .effect {right:15.4%;}
+.nav a:nth-child(3):hover ~ .effect {right:79.4%;}
 
 .ph-dot-nav:after {
   display: block;
@@ -94,7 +94,7 @@ h2 {font-family: 'Amatic SC', cursive;
     text-align: center;
     font-size: 40px;
     border-width: 0 0 2px;
-    border-color:rgb(255,218,218);
+    border-color:black;
     border-style:solid;}
 
 p{font-family: 'Comfortaa', cursive;
@@ -109,8 +109,13 @@ text-align: center;
        padding-left:20px;
        padding-right:20px;
        padding-top:5px;
-       border:1px dotted black;}
-
+       border-width: 0 0 1px;
+       border-color:black;
+       border-style:dotted;
+    
+/* IMAGE PAGE 1 */
+img {margin: auto;
+padding-left:37%;}
 
 /* Cercle */ 
 .cercle{
@@ -145,11 +150,6 @@ text-align: center;
 @-o-keyframes cercle{from {-o-transform:rotate(0deg); left:0px;} to {-o-transform:rotate(360deg); left:150px;}}
 
 
-/* IMAGE PAGE 1 */
-img {margin: auto;
-padding-left:37%;}
-
-
 /* CERCLE COMPETENCES */
 .cercle-competence {width:150px;
 height:150px;
@@ -166,5 +166,4 @@ position:absolute;
 bottom:0px;}
 
 .cercle-competence:hover .cercle-competence-niveau {height: 15%
-    transition: all 0.1s is
-}
+    transition: all 0.1s is}
