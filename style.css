@@ -10,21 +10,20 @@ header {background-color:rgba(182,241,167,0.2);
   margin:auto;}
 
 .ligne {border-width: 0 0 1px;
-      width:73%;
-      padding-top:0.2%;
-      margin:auto;
-      background:transparent;
-      border-color:pink;
-      border-style: dashed}
+       width:81%;
+       padding-top:0.2%;
+       margin:auto;
+       background:transparent;
+       border-color:pink;
+       border-style: dashed}
 
 .nav a {display: inline-block;
     position: relative;
-    float: right;
     padding-bottom:1%;
     padding-top:1%;
-    padding-left:0%;
+    padding-left:7.5%;
     padding-right:0%; 
-    width: 32%;
+    width: 15%;
     text-decoration:none;
     font-family:'Unica One', cursive;
     text-align:center;
@@ -34,40 +33,37 @@ header {background-color:rgba(182,241,167,0.2);
 
 .nav a:hover {color: pink;}
 
-.effect {
-  position: absolute;
-  right: 100%;
-  transition: 0.7s ease-in-out; }
+.effect {position: absolute;
+         right: 100%;
+         transition: 0.7s ease-in-out; }
 
-.nav a:nth-child(2):hover ~ .effect {right:47.5%;}
-.nav a:nth-child(1):hover ~ .effect {right:15.4%;}
-.nav a:nth-child(3):hover ~ .effect {right:79.4%;}
+.nav a:nth-child(1):hover ~ .effect {right:84.2%;}
+.nav a:nth-child(2):hover ~ .effect {right:61.4%;}
+.nav a:nth-child(3):hover ~ .effect {right:38.7%;}
+.nav a:nth-child(4):hover ~ .effect {right:15.9%;}
 
-.ph-dot-nav:after {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height:20%;
-  background:pink;
-  bottom:10%;}
+.ph-dot-nav:after {display: block;
+                   position: absolute;
+                   width: 100%;
+                   height:20%;
+                   background:pink;
+                   bottom:10%;}
 
-.ph-dot-nav a:after {
-  content: "";
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  bottom: 0px;
-  margin-left: 25%;
-  left: 25%;
-  background: pink;
-  border-radius: 100%; }
+.ph-dot-nav a:after {content: "";
+                     position: absolute;
+                     width: 5px;
+                     height: 5px;
+                     bottom: 0px;
+                     margin-left: 43%;
+                     left: 25%;
+                     background: pink;
+                     border-radius: 100%; }
 
-.ph-dot-nav .effect {
-  width: 10px;
-  height: 10px;
-  bottom: 0px; 
-  background: pink;
-  border-radius: 100%;}
+.ph-dot-nav .effect {width: 10px;
+                     height: 10px;
+                     bottom: 0px; 
+                     background: pink;
+                     border-radius: 100%;}
 
 @media screen and (max-width: 800px) {
     .nav a {font-size: 15px}}
@@ -121,6 +117,7 @@ p{font-family: 'Comfortaa', cursive;
   text-align: center;
   font-size: 15px;}
 
+/* BLOC */
 .bloc {background-color:rgba(255,218,218,0.7);
        height:40%;
        width:55%;
@@ -133,6 +130,24 @@ p{font-family: 'Comfortaa', cursive;
        border-width: 0 0 1px;
        border-color:black;
        border-style:dotted;}
+
+/* IMAGE PAGE 3 */
+.carte {background-color:rgba(255,218,218,0.7);
+       height:40%;
+       width:55%;
+       margin-top:0.1%;
+       margin-left:23.3%;
+       padding-bottom:0.1%;
+       padding-left:0.1%;
+       padding-right:0.1%;
+       padding-top:1%;}
+    
+.carte img {width:98%;
+            padding-bottom:0.9%;
+            margin-left:auto;
+            margin-right:auto;
+            padding-top:0%;
+            display:block;}
     
 /* IMAGE PAGE 1 */
 .bloc img {margin: auto;
@@ -172,23 +187,73 @@ width:31.7%}
 @-o-keyframes cercle{from {-o-transform:rotate(0deg); left:0px;} to {-o-transform:rotate(360deg); left:150px;}}
 
 
-/* CARRE COMPETENCES */
-.cercle-competence {width:150px;
-height:150px;
-background-color:blue;
-margin:50px;
-overflow:hidden;
-position:relative;}
+/* COMPETENCES */
+h4 {font-family: 'Amatic SC', cursive;
+    text-align: left;
+    font-size: 20px;} 
 
-.cercle-competence-niveau {width:100%;
-height:0%;
-background-color:lightblue;
-position:absolute;
-bottom:0px;}
+.ligne2 {border-width: 0 0 1px;
+      width:60%;
+      padding-top:1%;
+      padding-bottom:1%;
+      margin:auto;
+      background:transparent;
+      border-color: #000000;
+      border-style: solid}
 
-.cercle-competence:hover .cercle-competence-niveau {height: 15%
-    transition: all 0.1s is}
+.actu {position: absolute;
+           width:35%;
+           padding-left:2%;}
 
+.actu2 {width:50%;
+           padding-left:52%;
+           padding-top:4%;}
+
+.optique1 {position: absolute;
+           width:35%;
+           padding-left:2%;}
+
+.optique1-2 {width:50%;
+           padding-left:52%;
+           padding-top:4%;}
+
+.optique2 {position: absolute;
+           width:40%;
+           padding-left:2%;}
+
+.optique2-1 {width:49%;
+           padding-left:52%;
+           padding-top:4%;}
+
+.optique3 {position: absolute;
+           width:40%;
+           padding-left:2%;}
+
+.optique3-1 {width:49%;
+           padding-left:52%;
+           padding-top:4%;
+           padding-bottom:1%;}
+
+.optique4 {position: absolute;
+           width:40%;
+           padding-left:2%;}
+
+.optique4-1 {width:49%;
+           padding-left:52%;
+           padding-top:4%;
+           padding-bottom:1%;}
+
+.optique5 {position: absolute;
+           width:40%;
+           padding-left:2%;}
+
+.optique5-1 {width:49%;
+           padding-left:52%;
+           padding-top:5%;
+           padding-bottom:2%;}
+
+li {font-family: 'Comfortaa', cursive;
+  font-size: 14px;}
 
 /* FOOTER */
 footer {margin:auto;
