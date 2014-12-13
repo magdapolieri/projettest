@@ -114,16 +114,16 @@ h2 {font-family: 'Amatic SC', cursive;
 
 
 /* PARAGRAPHE */    
-p{font-family: 'Comfortaa', cursive;
+p{font-family: 'Comfortaa';
   text-align: center;
   font-size: 15px;}
 
 /* BLOC */
 .bloc {background-color:rgba(255,218,218,0.7);
        height:40%;
-       width:55%;
+       width:60%;
        margin-top:0,1%;
-       margin-left:23.3%;
+       margin-left:20.3%;
        padding-bottom:0.1%;
        padding-left:0.1%;
        padding-right:0.1%;
@@ -135,9 +135,9 @@ p{font-family: 'Comfortaa', cursive;
 /* IMAGE PAGE 3 */
 .carte {background-color:rgba(255,218,218,0.7);
        height:40%;
-       width:55%;
+       width:60%;
        margin-top:0%;
-       margin-left:23.3%;
+       margin-left:20.3%;
        padding-bottom:0.1%;
        padding-left:0.1%;
        padding-right:0.1%;
@@ -157,19 +157,19 @@ width:31.7%}
 
 /* Cercle */ 
 .cercle{
-    margin-left:250px;
+    margin-left:30%;
     background:url(image/3.jpg);
     background-size:cover;
     position:relative;
     display:inline-block;
-    width:100px;
-    height:100px;
+    width:95px;
+    height:95px;
     border:solid 2px pink;
     border-radius:85px;
     line-height:100px;
     font-family:'Amatic SC', cursive;
     text-align: center;
-    sfont-size: 20px;
+    font-size: 20px;
        
     animation-name:cercle; -webkit-animation-name:cercle;
    -moz-animation-name:cercle; -o-animation-name:cercle;
@@ -201,22 +201,16 @@ h4 {font-family: 'Amatic SC', cursive;
       border-color: #000000;
       border-style: solid}
 
-.actu {position: absolute;
-       width:35%;
+.actu h4{position: absolute;
        padding-left:2%;
-       padding-bottom:1%;}
+       padding-bottom:5%;
+       margin-top:0px;}
 
-.actu2 {width:85%;
-        padding-left:10%;
-        padding-top:2%;}
-
-.ligne3 {margin-left: 19%;
-         border-width: 0 0 1px;
-         width:78%;
-         padding-top:1%;
-         padding-bottom:1%;
-         border-color: #000000;
-         border-style: solid}
+.paragraphe {width:87%;
+        padding-left:11%;
+        font-family: 'Comfortaa';
+        font-size: 15px;
+        margin-top:1%;}
 
 .optique1 {position: absolute;
            width:35%;
@@ -265,8 +259,13 @@ li {font-family: 'Comfortaa', cursive;
   font-size: 14px;}
 
 /* FOOTER */
-footer {margin:auto;
-      max-width:70%;
-      background-color:rgba(182,241,167,0.2);
-      margin-top:1%;
-      padding-top:0,5%;}
+footer {margin: auto;
+        position: relative;
+        text-align: center;
+        font-family: 'Comfortaa', cursive;
+        font-size: 14px;
+        width:70%;
+        background-color:rgba(182,241,167,0.2);
+        margin-top:1%;
+        padding-top:1%;
+        padding-bottom:1%;}
