@@ -248,12 +248,21 @@ h4 {font-family: 'Amatic SC', cursive;
 
 .optique5 {position: absolute;
            width:40%;
-           padding-left:2%;}
+           padding-right:2%;}
 
 .optique5-1 {width:49%;
            padding-left:52%;
            padding-top:5%;
            padding-bottom:2%;}
+
+ul p {display: inline-block;
+      width:30%;
+     text-align: left;
+      padding-right:2%;
+      padding-left: 0%;
+      font-family: 'Comfortaa', cursive;
+      font-size: 14px;
+      margin-left:0px;}
 
 li {font-family: 'Comfortaa', cursive;
   font-size: 14px;}
