@@ -193,45 +193,37 @@ h4 {font-family: 'Amatic SC', cursive;
         font-size: 15px;
         margin-top:1%;}
 
-.optique1 {position: absolute;
-           width:35%;
-           padding-left:2%;}
-
-.optique1-2 {width:50%;
-           padding-left:52%;
-           padding-top:4%;}
-
-.optique2 {position: absolute;
+.optique {position: absolute;
            width:40%;
            padding-left:2%;}
 
-.optique2-1 {width:49%;
+.optique1 {width:49%;
            padding-left:52%;
            padding-top:4%;}
 
-.optique3 {position: absolute;
+.ppdi {position: absolute;
            width:40%;
            padding-left:2%;}
 
-.optique3-1 {width:49%;
+.ppdi1 {width:49%;
            padding-left:52%;
            padding-top:4%;
            padding-bottom:1%;}
 
-.optique4 {position: absolute;
+.undiz {position: absolute;
            width:40%;
            padding-left:2%;}
 
-.optique4-1 {width:49%;
+.undiz1 {width:49%;
            padding-left:52%;
            padding-top:4%;
            padding-bottom:1%;}
 
-.optique5 {position: absolute;
+.sienned {position: absolute;
            width:40%;
            padding-left:2%;}
 
-.optique5-1 {width:49%;
+.sienned1 {width:49%;
            padding-left:52%;
            padding-top:5%;
            padding-bottom:2%;}
@@ -246,7 +238,8 @@ ul p {display: inline-block;
       margin-left:0px;}
 
 li {font-family: 'Comfortaa', cursive;
-  font-size: 14px;}
+  font-size: 14px;
+list-style-type:square;}
 
 
 /* PAGE 3 */
